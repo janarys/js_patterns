@@ -59,3 +59,14 @@ const house2 = generateBuilding({
         }
     }
 })
+
+/* 
+    Summary:
+        This is interesting one, i belive there might be a several ways to do factory method,
+        for example we do something like this -> 
+        function generateBuilding(obj, floor){
+            return {...obj, obj.floor = floor}
+        }
+        const house = generateBuilding({}, 1)
+        is it factory pattern ? i guess yes it is. 
+*/
