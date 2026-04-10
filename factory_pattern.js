@@ -1,5 +1,5 @@
 /*
-    Factory pattern -> objects which is produce new objects (function return new ojb)
+    Creational design pattern -> Factory pattern -> objects which is produce new objects (function return new ojb)
  */
 
 class Building {

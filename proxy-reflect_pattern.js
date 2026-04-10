@@ -68,7 +68,7 @@ const createObjProxy = new Proxy(obj,
     })
 createObjProxy.sensetiveFn()
 
-const redact = (propertyName, redactionValue) {
+const redact = (propertyName, redactionValue) => {
     if (propertyName.includes('sensetive')) {
         return '[Redact]'
     }

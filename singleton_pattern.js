@@ -1,4 +1,5 @@
 /*
+    Creational design pattern -> 
     The singleton pattern allows an object to be instantiated only once, exposes this single instance to
     consumers, and controls the instantiation of the single instance.
 */
